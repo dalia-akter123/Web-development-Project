@@ -1,0 +1,153 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!--site icon-->
+    <!-- <link href="admin-images/E.png" rel="icon" type="image/x-icon"/> -->
+
+
+    <title>French Learners Club</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/bootstrap.css">
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css" integrity="sha512-KfkfwYDsLkIlwQp6LFnl8zNdLGxu9YAA1QvwINks4PhcElQSvqcyVLLD9aMhXd13uQjoXtEKNosOWaZqXgel0g==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+</head>
+<body>
+
+
+    <header class="container-fluid">
+        <div class="container">
+            <div class="row">
+                <div class="col-3 logo" style="text-align: left;display: flex;
+    align-self: center;">
+                    <h1>French Learners Club</h1>
+                </div>
+
+                <div class="col-6 list" style="text-align: center; justify-content: center; display: flex;">
+                    <ul>
+                        <li>
+                            <a href="index.html">Home</a>
+                        </li>
+
+                        <li>
+                            <a href="index.html/#about">About us</a>
+                        </li>
+
+                        <li>
+                            <a href="index.html/#club">About club</a>
+                        </li>
+
+                        <li>
+                            <a href="index.html/#founder">Founder</a>
+                        </li>
+                    </ul>
+                </div>
+
+                <div class="col-3 hbutton" style="text-align: right;">
+                    <a href="contact.html" class="join-button">Join Now</a>
+                </div>
+
+                <div class="col-12">
+                    <div class="menu-bar">
+                        <div id="menu-toggle" class="menu-toggle"></div>
+
+                        <div class="dropdown-menu">
+                            <ul>
+                                <li>
+                                    <a href="#home">Home</a>
+                                </li>
+
+                                <li>
+                                    <a href="#about">About us</a>
+                                </li>
+
+                                <li>
+                                    <a href="#club">About club</a>
+                                </li>
+
+                                <li>
+                                    <a href="#founder">Founder</a>
+                                </li>
+
+                                <li>
+                                    <a href="contact.html">Join Now</a>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </header>
+    
+    <section class="contact page">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-6 col-12 gap-down">
+                    <img src="image/contact.png" class="img-fluid">
+                </div>
+
+                <div class="col-md-6 col-12">
+                    <form>
+                        <div class="row">
+                            <div class="col-md-6 col-12">
+                                <h4>First Name</h4>
+                                <input type="text" name="first-name">
+                            </div>
+
+                            <div class="col-md-6 col-12">
+                                <h4>Last Name</h4>
+                                <input type="text" name="last-name">
+                            </div>
+                        </div>
+
+                        <div class="row">
+                            <div class="col-md-6 col-12">
+                                <h4>Email</h4>
+                                <input type="text" name="first-name">
+                            </div>
+
+                            <div class="col-md-6 col-12">
+                                <h4>Phone</h4>
+                                <input type="text" name="last-name">
+                            </div>
+                        </div>
+
+                        <h4>Message</h4>
+                        <textarea maxlength="600"></textarea>
+
+                        <a href="#">Submit</a>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+    <footer>
+        <div class="container">
+            <h5>Copyright © 2021 French Learners Club, All rights reserved.</h5>
+        </div>
+    </footer>
+
+
+    <script>
+        const toggle = document.getElementById('menu-toggle');
+        toggle.onclick = function(){
+            toggle.classList.toggle('active');
+        }
+    </script>
+
+    <script src="js/jquery.js"></script>
+    <script src="js/popper.js"></script>
+    <script src="js/bootstrap.js"></script>
+</body>
+</html>
